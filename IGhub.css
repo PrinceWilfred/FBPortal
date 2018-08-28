@@ -1,0 +1,71 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.navbar{
+  background-color: black;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 80px;
+  padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+  color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+  color: #FFF;
+}
+#home{
+  background: url(interns.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(interns.jpg);
+  
+}
+.cone{
+  border-radius: 10px;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 2% 2% 2% 2%;
+}
+.fa{
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+.fa:hover{
+  text-decoration: none;
+
+}
+.down{
+  margin-top: 100px;
+}
+.write{
+  text-align: center;
+}
+.change{
+  padding-bottom: 3%;
+}
+.text{
+  display: table-cell;
+}
+.centered{
+  margin-top: 200px;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}.container{
+  width: 300px;
+}
+
+
+
+
