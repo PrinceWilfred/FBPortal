@@ -3,7 +3,8 @@ html, body{
   width: 100%;
 }
 .navbar{
-  background-color: black;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
   padding: 1% 0;
   font-size: 1.2em;
 }
@@ -31,15 +32,17 @@ html, body{
   border-radius: 10px;
 }
 footer{
-  background-color: black;
+ background-color: black;
   color: white;
   padding: 2% 2% 2% 2%;
+  height: auto;
 }
 .fa{
   padding: 15px;
   font-size: 25px;
   color: #FFF;
 }
+
 .fa:hover{
   text-decoration: none;
 
@@ -64,7 +67,62 @@ footer{
   vertical-align: middle;
 }.container{
   width: 300px;
+  padding-top: 20px;
 }
+.new{
+  margin-left: 80px;
+  text-decoration: none;
+}
+.container-fluid form{
+margin-left: 20px;
+}
+.move{
+  margin-left: 300px;
+}
+.container-fluid{
+  padding: 15px;
+}
+.form-inline{
+  padding: 10px;
+}
+.form-inline label{
+  margin: 10px;
+}
+.submit{
+  margin-left: 100px;
+  position: relative;
+  top: 10px;
+}
+.form-group label{
+  display: block;
+}
+.form-group{
+  display: inline-block;
+  
+}
+
+
+@media only screen and (max-device-width: 576px) {
+
+  .container-fluid form{
+margin-right: 20px; 
+}
+
+}
+.pull-left{
+  left: px;
+}
+#blue{
+  width: %;
+  padding: %
+  padding: 20%;
+}
+#red{
+  margin-left: px;
+}
+
+
+
 
 
 
